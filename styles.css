@@ -14,6 +14,7 @@
 }
 
 :root {
+  --font-family: "Barlow Semi Condensed", "Public Sans", sans-serif;
   --darkBlue: hsl(233, 26%, 24%);
   --Green: hsl(136, 64%, 51%);
   --Cyan: hsl(192, 69%, 51%);
@@ -21,4 +22,26 @@
   --Gray-100: hsl(220, 16%, 96%);
   --Gray-50: hsl(0, 0%, 98%);
   --White: hsl(0, 100%, 100%);
+}
+
+img {
+  display: block;
+}
+
+section {
+  padding: 4rem 0;
+  font-weight: 300;
+}
+section p {
+  color: var(--Gray-600);
+}
+
+section h2 {
+  font-weight: 300;
+  font-size: 2.25rem;
+}
+
+body {
+  font-size: 18px;
+  font-family: var(--font-family);
 }
