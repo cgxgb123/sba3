@@ -46,7 +46,27 @@ body {
   font-family: var(--font-family);
   line-height: 1.4;
 }
-.rq-btn{
+.rq-btn {
   cursor: pointer;
   background: var(--Green);
+  background: -moz-linear-gradient(
+    90deg,
+    rgb(50, 210, 93) 0%,
+    rgb(44, 182, 216) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(50, 210, 93) 0%,
+    rgb(44, 182, 216) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgb(50, 210, 93) 0%,
+    rgb(44, 182, 216) 100%
+  );
+  color: var(--White);
+  padding: 12px 24px;
+  font-weight: 700;
+  border-radius: 20px;
+  border: 0;
 }
