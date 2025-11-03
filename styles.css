@@ -1,3 +1,14 @@
+:root {
+  --font-family: "Barlow Semi Condensed", "Public Sans", sans-serif;
+  --darkBlue: hsl(233, 26%, 24%);
+  --Green: hsl(136, 64%, 51%);
+  --Cyan: hsl(192, 69%, 51%);
+  --Gray-600: hsl(233, 8%, 62%);
+  --Gray-100: hsl(220, 16%, 96%);
+  --Gray-50: hsl(0, 0%, 98%);
+  --White: hsl(0, 100%, 100%);
+}
+/*Remove default padding and margin */
 * {
   padding: 0;
   margin: 0;
@@ -12,17 +23,6 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-:root {
-  --font-family: "Barlow Semi Condensed", "Public Sans", sans-serif;
-  --darkBlue: hsl(233, 26%, 24%);
-  --Green: hsl(136, 64%, 51%);
-  --Cyan: hsl(192, 69%, 51%);
-  --Gray-600: hsl(233, 8%, 62%);
-  --Gray-100: hsl(220, 16%, 96%);
-  --Gray-50: hsl(0, 0%, 98%);
-  --White: hsl(0, 100%, 100%);
 }
 
 img {
@@ -73,6 +73,11 @@ body {
   border-radius: 20px;
   border: 0;
 }
+.container {
+  width: 80%;
+  max-width: 1440px;
+  margin: auto;
+}
 
 .rq-btn:hover {
   filter: brightness(1.1);
@@ -117,4 +122,7 @@ nav .navbar li a {
 }
 nav .navbar li:hover a {
   color: var(--darkBlue);
+}
+nav .navbar li:hover {
+  border-bottom: 2px solid var(--Green);
 }
