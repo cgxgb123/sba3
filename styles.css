@@ -9,6 +9,7 @@
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
@@ -32,6 +33,7 @@ section {
   padding: 4rem 0;
   font-weight: 300;
 }
+
 section p {
   color: var(--Gray-600);
 }
@@ -46,6 +48,7 @@ body {
   font-family: var(--font-family);
   line-height: 1.4;
 }
+
 .rq-btn {
   cursor: pointer;
   background: var(--Green);
@@ -69,4 +72,8 @@ body {
   font-weight: 700;
   border-radius: 20px;
   border: 0;
+}
+
+.rq-btn:hover {
+  filter: brightness(1.1);
 }
