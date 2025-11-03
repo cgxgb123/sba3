@@ -44,4 +44,9 @@ section h2 {
 body {
   font-size: 18px;
   font-family: var(--font-family);
+  line-height: 1.4;
+}
+.rq-btn{
+  cursor: pointer;
+  background: var(--Green);
 }
