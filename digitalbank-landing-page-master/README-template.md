@@ -7,6 +7,7 @@ This is a solution to the [Digitalbank landing page challenge on Frontend Mentor
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Reflection](#Reflection)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -37,7 +38,7 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+### Reflection
 
 ### Links
 
@@ -77,7 +78,7 @@ To see how you can add code snippets, see below:
 
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉');
+  console.log("🎉");
 };
 ```
 
