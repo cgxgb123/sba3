@@ -78,20 +78,43 @@ body {
   filter: brightness(1.1);
 }
 
-.grid-col{
+.grid-col {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
 }
 
-.btns{
+.btns {
   display: none;
 }
 
-.close-nav{
+.close-nav {
   display: none;
 }
 
-.hmbgr-nav{
+.hmbgr-nav {
   display: none;
+}
+
+nav {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .navbar {
+  color: var(--Gray-100);
+  display: flex;
+  gap: 30px;
+}
+
+nav .navbar li {
+  cursor: pointer;
+}
+
+nav .navbar li a {
+  color: var(--Gray-600);
+}
+nav .navbar li:hover a {
+  color: var(--darkBlue);
 }
