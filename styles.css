@@ -75,7 +75,7 @@ body {
 }
 .container {
   width: 80%;
-  max-width: 1440px;
+  max-width: 14400px;
   margin: auto;
 }
 
@@ -125,4 +125,45 @@ nav .navbar li:hover a {
 }
 nav .navbar li:hover {
   border-bottom: 2px solid var(--Green);
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.hero {
+  display: flex;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 4rem;
+  font-weight: 300;
+}
+
+.hero-body {
+  align-self: center;
+}
+
+.hero-body h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-body p {
+  color: var(--Gray-600);
+  margin: 2rem 0;
+}
+.hero-img .phone {
+  width: 45%;
+  margin-left: auto;
+  position: absolute;
+  top: 15px;
+  z-index: 5;
 }
