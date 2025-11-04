@@ -288,4 +288,19 @@ footer .footer-grid .footer-item:nth-child(4) button {
     transition: all 200ms ease;
     z-index: 5;
   }
+  nav .navbar.show {
+    transform: translateY(30%);
+  }
+  .btns {
+    display: block;
+  }
+  .hmbgr-nav {
+    display: block;
+  }
+  .mobile-overlay.show {
+    display: block;
+  }
+  footer .footer-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
