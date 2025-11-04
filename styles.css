@@ -271,3 +271,21 @@ footer .footer-grid .footer-item:nth-child(4) button {
   bottom: 0;
   z-index: 6;
 }
+
+@media (max-width: 1024px) {
+  .grid-col {
+    grid-template-columns: 1fr 1fr;
+  }
+  nav .navbar {
+    background-color: white;
+    width: 80%;
+    padding: 1rem 0;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    transform: translateY(-150%);
+    border-radius: 5px;
+    transition: all 200ms ease;
+    z-index: 5;
+  }
+}
