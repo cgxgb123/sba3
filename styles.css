@@ -202,3 +202,21 @@ header {
   background-color: var(--White);
   padding: 1.5rem;
 }
+.Latest-articles .card-description .author {
+  font-size: 1rem;
+}
+
+.Latest-articles .card-description .article-title {
+  color: var(--darkBlue);
+  margin: 1rem 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+footer {
+  background-color: var(--darkBlue);
+  color: white;
+  padding: 2.5rem 0;
+  font-weight: 300;
+}
