@@ -5,7 +5,6 @@ This is a solution to the [Digitalbank landing page challenge on Frontend Mentor
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Reflection](#Reflection)
   - [Links](#links)
@@ -17,20 +16,22 @@ This is a solution to the [Digitalbank landing page challenge on Frontend Mentor
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+My challenge was to build out this landing page and get it looking as close to the design as possible.
 
-### The challenge
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Users should be able to:
+The only JavaScript required is for the mobile navigation toggle. However, you could also try doing this without JS.
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+Your users should be able to:
+
+View the optimal layout for the interface depending on their device's screen size
+See hover and focus states for all interactive elements on the page
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile Bank](./banks.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
