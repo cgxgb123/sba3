@@ -303,4 +303,23 @@ footer .footer-grid .footer-item:nth-child(4) button {
   footer .footer-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  footer .footer-grid .footer-item:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+  .hero-img {
+    position: relative;
+  }
+  .hero-img .phone {
+    width: 90%;
+    margin-left: initial;
+    top: -210px;
+    left: 5%;
+  }
 }
