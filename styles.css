@@ -277,6 +277,9 @@ footer .footer-grid .footer-item:nth-child(4) button {
   .grid-col {
     grid-template-columns: 1fr 1fr;
   }
+  nav .rq-btn {
+    display: none;
+  }
   nav .navbar {
     background-color: white;
     width: 80%;
