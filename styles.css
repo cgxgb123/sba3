@@ -167,3 +167,22 @@ header {
   top: 15px;
   z-index: 5;
 }
+
+.why {
+  background-color: var(--Gray-100);
+}
+
+.why .section-header p {
+  margin: 2rem 0 4rem 0;
+}
+.why .section-header h3 {
+  margin: 1.5rem 0;
+}
+
+.latest-articles {
+  color: var(--Gray-50);
+}
+
+.latest-articles .section-header {
+  margin-bottom: 3rem;
+}
